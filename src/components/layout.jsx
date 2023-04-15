@@ -1,8 +1,7 @@
-
-export default function Layout({children}) {
+export default function Layout({ children }) {
   return (
     <>
       <div className="wrapper">{children}</div>
     </>
-  )
+  );
 }

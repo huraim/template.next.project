@@ -1,5 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import { GA_TRACKING_ID } from "../lib/gtag";
+import { Html, Head, Main, NextScript } from "next/document";
+import { GA_TRACKING_ID } from "../../lib/gtag";
 
 export default function Document() {
   return (
@@ -29,5 +29,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
